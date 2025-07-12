@@ -7,9 +7,7 @@ function ShowProduct() {
   return (
     <div className='l'>
       <h2>Product List</h2>
-      {products.length === 0 ? (
-        <p>No products added yet.</p>
-      ) : (
+      
         <ul>
           {products.map((product, index) => (
             <li key={index}>
@@ -17,7 +15,7 @@ function ShowProduct() {
             </li>
           ))}
         </ul>
-      )}
+      
     </div>
   );
 }
