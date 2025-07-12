@@ -5,7 +5,7 @@ This is a simple React application that allows users to add products (with Name,
  
 # Libraries:
     -React Redux
-    -RTK(React Tool Kit)
+    -reduxjs/toolkit
 #Features
 - Add product with name, price, and category
 - View list of products in real-time
