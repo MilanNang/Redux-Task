@@ -10,7 +10,7 @@ function AddProduct() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!name || !price || !category) return alert('Please fill all fields');
+   
     
     dispatch(addProduct({ name, price, category }));
     setName('');
