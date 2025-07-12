@@ -11,7 +11,7 @@ function ShowProduct() {
         <ul>
           {products.map((product, index) => (
             <li key={index}>
-              <strong>{product.name}</strong> | Price: {product.price} | Category: {product.category}
+              Name:{product.name} | Price: {product.price} | Category: {product.category}
             </li>
           ))}
         </ul>

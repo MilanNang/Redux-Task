@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 300px;
+   
 }
 .l{
      display: flex;
@@ -12,3 +13,4 @@
     align-items: center;
     height: 300px;
 }
+
